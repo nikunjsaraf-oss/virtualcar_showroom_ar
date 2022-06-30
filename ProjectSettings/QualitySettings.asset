@@ -125,9 +125,9 @@ QualitySettings:
     PS4: 2
     Server: 0
     Stadia: 2
-    Standalone: 2
+    Standalone: 0
     WebGL: 1
     Windows Store Apps: 2
     XboxOne: 2
-    iPhone: 1
+    iPhone: 0
     tvOS: 1
