@@ -136,6 +136,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1.0
   preloadedAssets:
+  - {fileID: 11400000, guid: b9902658fe778f74eba5da807cbcd512, type: 2}
+  - {fileID: -7905761925632479363, guid: 8fcb49f69952a92439db7cc207301ef3, type: 2}
   - {fileID: 7213796488503164635, guid: 857ce3ed5bfcfa94f9ed47b3dcf22328, type: 2}
   - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
   metroInputSource: 0
@@ -146,7 +148,7 @@ PlayerSettings:
   vrSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
-  enableFrameTimingStats: 0
+  enableFrameTimingStats: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
