@@ -217,11 +217,11 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
+    m_Bias: 0
     m_NormalBias: 0.4
     m_NearPlane: 0.2
     m_CullingMatrixOverride:
@@ -363,6 +363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Visual
       objectReference: {fileID: 0}
+    - target: {fileID: 8297056788253150765, guid: 98c57c60d5f37d34cb0d009317bd15af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c57c60d5f37d34cb0d009317bd15af, type: 3}
 --- !u!1 &858768943 stripped
@@ -503,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ac240ce38604da987a6ebdc7e5dbaab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 6819016074649803183, guid: ab98b2e8c08f2c249a4b1e9149870155,
+  objectPrefab: {fileID: 8602378551670594316, guid: ed8fa2a2d16ff8a4c8c152296e11fe9a,
     type: 3}
 --- !u!114 &1677137646
 MonoBehaviour:
@@ -583,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f393e273a849b39e1b74f510e53ac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlacedPrefab: {fileID: 6819016074649803183, guid: ab98b2e8c08f2c249a4b1e9149870155,
+  m_PlacedPrefab: {fileID: 8602378551670594316, guid: ed8fa2a2d16ff8a4c8c152296e11fe9a,
     type: 3}
   visualObject: {fileID: 858768943}
 --- !u!1 &2048299819
